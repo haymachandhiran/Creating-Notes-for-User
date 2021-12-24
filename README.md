@@ -1,4 +1,4 @@
-# Web Page for Creating  NOtes
+# Web Page for Creating  Notes
 
 ## Setup & Installtion
 
@@ -22,3 +22,17 @@ python main.py
 
 Go to `http://127.0.0.1:5000`
 
+## App Features
+
+Create new users
+
+Login for exisitng users
+
+OTP generation via SMS and Mail for password forget and OTP log in
+
+
+## Change your Fast2sms Key and Gmail to send comms.
+
+In send_comss.py file , change headers['authorization'] = 'YOUR KEY'
+
+In send_comss.py file , change smtp.login('abc@gmail.com', 'abc123') to your smtp.login('Your mail id','Your Password')
